@@ -20,6 +20,8 @@ GIT POLECENIA
 - find "wyszukuje pliki , katalogi"
 - head "drukuje pierwszy N wierszy"
 - tail "drukuje ostatni N wierszy"
+- chgrp - zmiana grupy pliku
+- newgrp - zmiana głównej grupy użytkownika
 
 - # "hash"
 

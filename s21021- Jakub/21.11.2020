@@ -30,3 +30,5 @@ sciąganie
 - wget www... "pobiera strone internetowa"
 - curl -k https:... > index.html "przekierowanie do pliku zawartości strony"
 - -k "wyłącza sprawdzanie certyfikatu"
+- -a - wyśiwetlenie również plików zaczynających się na "."
+- ps u "u" - wyświetlnie dodatkowej kolumny z informacją o użytkowniku do, którego przynależy dany proces

@@ -7,7 +7,7 @@ CHMOD
 - chmod u+r , g-wx , o-rwx nazwa_pliku "przydzielić ustaienia do wszytkich (u - właściciel ,g - grupy , o - inni )"
 - chmod 777 nazwa_pliku "odczyt 9 bitów"
 - chmod 755 nazwa_pliku "ucinamy "
-- chmod u=... , g=... , o=... "zapisywanie wszystkich kitów"
+- chmod u=... , g=... , o=... "zapisywanie wszystkich bitów"
 - chmod 755 "domyśle ustawienia dla kalogów"
 - chmod 644 "domyślne usienia dla plików"
 - chmod ugo=rwx "uprawnienia dla wszystkich"
@@ -31,6 +31,11 @@ W przypadku katalogów
 - o inni (other)
   (u) (g) (o)
 d rwx rwx rwx
+
+obliczanie:
+- d rwx rwx rwx
+- r = 4 , w = 2 , x = 1
+4+2+1=7 "z 777 to wszystkie 9 bitów"
 
 Katalogi
 - mkdir "nowy katalog"

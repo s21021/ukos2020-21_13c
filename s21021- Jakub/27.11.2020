@@ -1,0 +1,4 @@
+- chgrp - zmiana grupy pliku
+- newgrp - zmiana głównej grupy użytkownika
+
+- jobs - podgląd procesów działających w tle
